@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contoh subtitle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        body {
+		background-image: url('background.jpg');
+		background-size: cover;
+	}
+	table {
+		background-color: aliceblue;
+		align="center"
+	}
+	h1 {
+		font-style: oblique;
+	}
+
+    </style>
+</head>
+<body>
+    <h1>Video Subtitle</h1>
+    <video controls>
+        <source src="cat-herd.webm" type="video/webm"/>
+        <track src="subtitle.vtt" kind="subtitles"label="Indonesia"/>
+    </video>
+</body>
+</html>
